@@ -1,6 +1,6 @@
 import csv, datetime as dt, requests, polars as pl
 
-APIKEY = "YOUR_KEY"  # or "demo"
+APIKEY = "0W4O8D0BNJEVJWJD"  # or "demo"
 DAYS = 10
 CSV_URL = f"https://www.alphavantage.co/query?function=EARNINGS_CALENDAR&horizon=3month&apikey={APIKEY}"
 
@@ -20,3 +20,4 @@ print(df)
 
 # optional export
 # df.write_csv("earnings_next_10d.csv")
+
